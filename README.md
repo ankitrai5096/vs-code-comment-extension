@@ -11,7 +11,7 @@ This extension allows you to customize the color of comments in Visual Studio Co
 ## Usage
 
 1. Open the command palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on macOS).
-2. Type `Change Comment Color` and select the command.
+2. Type `> Change Comment Color` and select the command.
 3. Choose one of the following:
    - **Predefined Colors**: Select a predefined color.
    - **Custom Hex Color**: Enter your custom hex code (e.g., `#FFD700`).
