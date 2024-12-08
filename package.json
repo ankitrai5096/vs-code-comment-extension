@@ -1,0 +1,46 @@
+{
+  "name": "vs-code-comment-extension",
+  "displayName": "VS Code Comment Extension",
+  "description": "Change the VS Code comments to a customizable color.",
+  "version": "0.0.3",
+  "publisher": "AnkitRai5096",
+  "icon": "./icon.png",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished",
+    "onCommand:extension.changeCommentColor"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.changeCommentColor",
+        "title": "Change Comment Color"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.changeCommentColor",
+        "key": "ctrl+shift+c",
+        "mac": "cmd+shift+c",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.95.0",
+    "@vscode/test-electron": "^2.4.1",
+    "@vscode/vsce": "^3.2.1",
+    "eslint": "^9.13.0"
+  }
+}
