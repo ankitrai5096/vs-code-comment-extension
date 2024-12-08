@@ -26,6 +26,10 @@ Here are examples of how comments look with different color options:
 
 ![Sample 2](./sample-2.png)
 
+![Sample 2](./sample-3.png)
+
+![Sample 2](./sample-4.png)
+
 ## Requirements
 
 - Visual Studio Code version 1.75.0 or higher.
